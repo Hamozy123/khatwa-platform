@@ -13,7 +13,7 @@ export const dataSourceOptions: DataSourceOptions = {
   entities: [__dirname + '/../**/*.entity{.ts,.js}'],
   migrations: [__dirname + '/migrations/*{.ts,.js}'],
   synchronize: false,
-  ssl: process.env.DATABASE_URL || process.env.PGSSLMODE === 'require' ? { rejectUnauthorized: false } : false,
+  ssl: process.env.DATABASE_URL ? { rejectUnauthorized: false } : process.env.PGSSLMODE === 'require' ? { rejectUnauthorized: false } : false,
 };
 
 const AppDataSource = new DataSource(dataSourceOptions);
