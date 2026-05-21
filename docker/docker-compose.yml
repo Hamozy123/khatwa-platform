@@ -1,0 +1,62 @@
+services:
+  postgres:
+    image: postgres:17
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: khatwa
+      POSTGRES_PASSWORD: khatwa_pass
+      POSTGRES_DB: khatwa_db
+    ports:
+      - '5433:5432'
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U khatwa']
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:8.6
+    restart: unless-stopped
+    ports:
+      - '6379:6379'
+    healthcheck:
+      test: ['CMD', 'redis-cli', 'ping']
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  minio:
+    image: minio/minio:latest
+    restart: unless-stopped
+    ports:
+      - '9000:9000'
+      - '9001:9001'
+    environment:
+      MINIO_ROOT_USER: khatwa
+      MINIO_ROOT_PASSWORD: khatwa_minio_pass
+    volumes:
+      - minio-data:/data
+    command: server /data --console-address ":9001"
+
+  ai-service:
+    build:
+      context: ../ai-service
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - '127.0.0.1:8765:8000'
+    environment:
+      - BACKEND_URL=http://host.docker.internal:3001/api
+    healthcheck:
+      test: ['CMD', 'curl', '-f', 'http://localhost:8000/api/ai/health']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres-data:
+    name: khatwa_postgres_data
+  minio-data:
+    name: khatwa_minio_data

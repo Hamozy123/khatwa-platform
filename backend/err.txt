@@ -1,0 +1,73 @@
+[winston] Unknown logger level: Starting Nest application...
+[winston] Unknown logger level: TypeOrmModule dependencies initialized
+[winston] Unknown logger level: LoggerModule dependencies initialized
+[winston] Unknown logger level: PassportModule dependencies initialized
+[winston] Unknown logger level: MulterModule dependencies initialized
+[winston] Unknown logger level: ConfigHostModule dependencies initialized
+[winston] Unknown logger level: WinstonModule dependencies initialized
+[winston] Unknown logger level: AppModule dependencies initialized
+[winston] Unknown logger level: ConfigModule dependencies initialized
+[winston] Unknown logger level: ConfigModule dependencies initialized
+[winston] Unknown logger level: JwtModule dependencies initialized
+[winston] Unknown logger level: TypeOrmCoreModule dependencies initialized
+[winston] Unknown logger level: TypeOrmModule dependencies initialized
+[winston] Unknown logger level: TypeOrmModule dependencies initialized
+[winston] Unknown logger level: TypeOrmModule dependencies initialized
+[winston] Unknown logger level: TypeOrmModule dependencies initialized
+[winston] Unknown logger level: TypeOrmModule dependencies initialized
+[winston] Unknown logger level: TypeOrmModule dependencies initialized
+[winston] Unknown logger level: TypeOrmModule dependencies initialized
+[winston] Unknown logger level: TypeOrmModule dependencies initialized
+[winston] Unknown logger level: StudentsModule dependencies initialized
+[winston] Unknown logger level: IepModule dependencies initialized
+[winston] Unknown logger level: ReportsModule dependencies initialized
+[winston] Unknown logger level: NotificationsModule dependencies initialized
+[winston] Unknown logger level: BehaviorModule dependencies initialized
+[winston] Unknown logger level: InclusionModule dependencies initialized
+[winston] Unknown logger level: AuthModule dependencies initialized
+[winston] Unknown logger level: MediaModule dependencies initialized
+[winston] Unknown logger level: AppController {/api}:
+[winston] Unknown logger level: Mapped {/api, GET} route
+[winston] Unknown logger level: AuthController {/api/auth}:
+[winston] Unknown logger level: Mapped {/api/auth/login, POST} route
+[winston] Unknown logger level: Mapped {/api/auth/change-password, POST} route
+[winston] Unknown logger level: StudentsController {/api/students}:
+[winston] Unknown logger level: Mapped {/api/students, GET} route
+[winston] Unknown logger level: Mapped {/api/students/:id, GET} route
+[winston] Unknown logger level: Mapped {/api/students, POST} route
+[winston] Unknown logger level: Mapped {/api/students/:id, PUT} route
+[winston] Unknown logger level: Mapped {/api/students/:id, DELETE} route
+[winston] Unknown logger level: IepController {/api/iep}:
+[winston] Unknown logger level: Mapped {/api/iep/plans/student/:studentId, GET} route
+[winston] Unknown logger level: Mapped {/api/iep/plans, GET} route
+[winston] Unknown logger level: Mapped {/api/iep/plans, POST} route
+[winston] Unknown logger level: Mapped {/api/iep/goals, POST} route
+[winston] Unknown logger level: Mapped {/api/iep/goals/:id, PUT} route
+[winston] Unknown logger level: Mapped {/api/iep/goals/:id, DELETE} route
+[winston] Unknown logger level: ReportsController {/api/reports}:
+[winston] Unknown logger level: Mapped {/api/reports/summary, GET} route
+[winston] Unknown logger level: Mapped {/api/reports/iep/:studentId/pdf, GET} route
+[winston] Unknown logger level: Mapped {/api/reports/attendance/:studentId/csv, GET} route
+[winston] Unknown logger level: MediaController {/api/media}:
+[winston] Unknown logger level: Mapped {/api/media/upload, POST} route
+[winston] Unknown logger level: Mapped {/api/media, GET} route
+[winston] Unknown logger level: Mapped {/api/media/:id, GET} route
+[winston] Unknown logger level: Mapped {/api/media/:id/file, GET} route
+[winston] Unknown logger level: Mapped {/api/media/:id, DELETE} route
+[winston] Unknown logger level: NotificationsController {/api/notifications}:
+[winston] Unknown logger level: Mapped {/api/notifications, POST} route
+[winston] Unknown logger level: Mapped {/api/notifications, GET} route
+[winston] Unknown logger level: Mapped {/api/notifications/unread-count, GET} route
+[winston] Unknown logger level: Mapped {/api/notifications/:id/read, PUT} route
+[winston] Unknown logger level: Mapped {/api/notifications/read-all, PUT} route
+[winston] Unknown logger level: BehaviorController {/api/behavior}:
+[winston] Unknown logger level: Mapped {/api/behavior/assessments, POST} route
+[winston] Unknown logger level: Mapped {/api/behavior/assessments/student/:studentId, GET} route
+[winston] Unknown logger level: Mapped {/api/behavior/trend/:studentId, GET} route
+[winston] Unknown logger level: Mapped {/api/behavior/assessments/:id, DELETE} route
+[winston] Unknown logger level: InclusionController {/api/inclusion}:
+[winston] Unknown logger level: Mapped {/api/inclusion/accommodations, POST} route
+[winston] Unknown logger level: Mapped {/api/inclusion/accommodations/student/:studentId, GET} route
+[winston] Unknown logger level: Mapped {/api/inclusion/accommodations/:id, PUT} route
+[winston] Unknown logger level: Mapped {/api/inclusion/accommodations/:id, DELETE} route
+[winston] Unknown logger level: Nest application successfully started

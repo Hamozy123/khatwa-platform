@@ -1,0 +1,1169 @@
+[32m[Khatwa][39m [32m5096[39m I4O [32m    LOG[39m  [32mBackend running on http://localhost:3001[39m [33m+0ms[39m
+[32m[Khatwa][39m [32m5096[39m I4O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'4cc43396-4fce-4437-8c20-86db90b4f1a6'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m2[39m,
+  userId: [32m'anonymous'[39m
+} [33m+2m[39m
+[32m[Khatwa][39m [32m5096[39m I4O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'5a9c9e1e-9447-416f-bece-82f63a7f4e24'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m0[39m,
+  userId: [32m'anonymous'[39m
+} [33m+1m[39m
+[32m[Khatwa][39m [32m5096[39m I5O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'42cd9944-1ebe-4e6d-91a6-c6a70d9fcb3d'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m0[39m,
+  userId: [32m'anonymous'[39m
+} [33m+4m[39m
+[32m[Khatwa][39m [32m5096[39m I2O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'd9b9e414-c758-4efd-add7-1697a0ebf3fd'[39m,
+  method: [32m'POST'[39m,
+  url: [32m'/api/auth/login'[39m,
+  statusCode: [33m201[39m,
+  durationMs: [33m98[39m,
+  userId: [32m'anonymous'[39m
+} [33m+35s[39m
+[32m[Khatwa][39m [32m5096[39m I8O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'aef9f6a2-60e5-427d-a7b8-fdcc193109f8'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m6[39m,
+  userId: [33m1[39m
+} [33m+646ms[39m
+[32m[Khatwa][39m [32m5096[39m I9O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'5e2cc2a7-aafe-454d-85ac-f233240fa870'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m3[39m,
+  userId: [33m1[39m
+} [33m+42ms[39m
+[32m[Khatwa][39m [32m5096[39m I9O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'74a13c6f-0bc6-4112-a4d5-c54663014dbf'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/reports/summary'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m52[39m,
+  userId: [33m1[39m
+} [33m+7ms[39m
+[32m[Khatwa][39m [32m5096[39m I9O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'5ca8b136-4bba-4133-b601-105924b9a3cd'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/reports/summary'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m9[39m,
+  userId: [33m1[39m
+} [33m+60ms[39m
+[32m[Khatwa][39m [32m5096[39m I6O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'2da61d37-c9e7-4d94-9b25-d61e462fb1f1'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m27[39m,
+  userId: [33m1[39m
+} [33m+14s[39m
+[32m[Khatwa][39m [32m5096[39m I7O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'8bdaff51-e11f-4185-85ed-4a908ed3e726'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/students'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m31[39m,
+  userId: [33m1[39m
+} [33m+5ms[39m
+[32m[Khatwa][39m [32m5096[39m I7O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'38404cff-9be2-4abf-8556-a220c843dc46'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m4[39m,
+  userId: [33m1[39m
+} [33m+13ms[39m
+[32m[Khatwa][39m [32m5096[39m I7O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'c0815761-3663-4fef-a2ba-4a00bada0e9f'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/students'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m2[39m,
+  userId: [33m1[39m
+} [33m+15ms[39m
+[32m[Khatwa][39m [32m5096[39m I0O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'aa57a641-4a41-4504-bd31-423011048277'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m4[39m,
+  userId: [33m1[39m
+} [33m+3s[39m
+[32m[Khatwa][39m [32m5096[39m I0O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'ad399ba7-925b-430d-9ab5-ecd377b83836'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m4[39m,
+  userId: [33m1[39m
+} [33m+20ms[39m
+[32m[Khatwa][39m [32m5096[39m I0O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'faf83dc8-4e45-4b1a-9bb1-9248dc406417'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/media'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m5[39m,
+  userId: [33m1[39m
+} [33m+3ms[39m
+[32m[Khatwa][39m [32m5096[39m I1O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'1e87cc47-2572-4b78-a5be-d854aa5b7e5d'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/media'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m2[39m,
+  userId: [33m1[39m
+} [33m+18ms[39m
+[32m[Khatwa][39m [32m5096[39m I2O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'196de123-3db7-454c-8a67-2cd25e347a28'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m10[39m,
+  userId: [33m1[39m
+} [33m+3s[39m
+[32m[Khatwa][39m [32m5096[39m I2O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'3dbc2a56-a0cb-4ea2-baf3-69ff2d893515'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/students'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m12[39m,
+  userId: [33m1[39m
+} [33m+5ms[39m
+[32m[Khatwa][39m [32m5096[39m I2O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'efa97d9a-293b-40e1-9370-72794626660e'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m4[39m,
+  userId: [33m1[39m
+} [33m+30ms[39m
+[32m[Khatwa][39m [32m5096[39m I2O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'6604b2ad-baab-4541-a3fb-00117d575d7a'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/students'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m3[39m,
+  userId: [33m1[39m
+} [33m+8ms[39m
+[32m[Khatwa][39m [32m5096[39m I2O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'19dfe9e9-f584-410e-bf46-6bb9b59ed8b3'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/reports/summary'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m66[39m,
+  userId: [33m1[39m
+} [33m+18ms[39m
+[32m[Khatwa][39m [32m5096[39m I3O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'e146a53a-8b02-48ae-abf8-7d5be769d7e4'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/reports/summary'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m15[39m,
+  userId: [33m1[39m
+} [33m+35ms[39m
+[32m[Khatwa][39m [32m5096[39m I1O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'9319a7c3-04ad-43fb-9284-b2e766d83402'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m6[39m,
+  userId: [33m1[39m
+} [33m+3s[39m
+[32m[Khatwa][39m [32m5096[39m I1O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'd361e7cf-dbbb-42d4-9b29-817b7fb1f004'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m2[39m,
+  userId: [33m1[39m
+} [33m+16ms[39m
+[32m[Khatwa][39m [32m5096[39m I10O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'110df19e-4871-4c3a-9778-cec2bcf3dbc5'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m16[39m,
+  userId: [33m1[39m
+} [33m+31s[39m
+[32m[Khatwa][39m [32m5096[39m I10O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'64af8293-e212-4939-9c0c-2f75968c7d4a'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m21[39m,
+  userId: [33m1[39m
+} [33m+30s[39m
+[32m[Khatwa][39m [32m5096[39m I10O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'53e1c90c-46ec-4d5e-87b9-75a79443b83c'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m16[39m,
+  userId: [33m1[39m
+} [33m+30s[39m
+[32m[Khatwa][39m [32m5096[39m I0O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'c37d3719-2151-46a9-8021-e1e11803fe1a'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m44[39m,
+  userId: [33m1[39m
+} [33m+30s[39m
+[32m[Khatwa][39m [32m5096[39m I10O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'e3fb452b-7401-45c0-a131-9c5130ed8444'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m29[39m,
+  userId: [33m1[39m
+} [33m+30s[39m
+[32m[Khatwa][39m [32m5096[39m I10O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'8b6901ed-d6fd-48de-aa90-d9863b97a27b'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m25[39m,
+  userId: [33m1[39m
+} [33m+30s[39m
+[32m[Khatwa][39m [32m5096[39m I10O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'a83969c5-f024-4e27-841f-223fd06f6099'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m24[39m,
+  userId: [33m1[39m
+} [33m+44s[39m
+[32m[Khatwa][39m [32m5096[39m I10O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'ff01f625-8eb7-4cfe-90d2-d7eecb77aeef'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m20[39m,
+  userId: [33m1[39m
+} [33m+60s[39m
+[32m[Khatwa][39m [32m5096[39m I10O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'403070a3-4937-4514-9823-5f11e8f025c9'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m22[39m,
+  userId: [33m1[39m
+} [33m+1m[39m
+[32m[Khatwa][39m [32m5096[39m I10O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'3dd5ba69-b787-411f-9ace-ada7d9eda2f3'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m29[39m,
+  userId: [33m1[39m
+} [33m+1m[39m
+[32m[Khatwa][39m [32m5096[39m I10O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'c7ff8253-4ab6-4c35-80e4-ea777f463f9a'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m40[39m,
+  userId: [33m1[39m
+} [33m+16s[39m
+[32m[Khatwa][39m [32m5096[39m I0O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'21f6cf19-be4e-4ffd-a6e1-3b78bec5e69e'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m50[39m,
+  userId: [33m1[39m
+} [33m+30s[39m
+[32m[Khatwa][39m [32m5096[39m I1O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'a2015cfa-22be-40e1-b588-5d04871b7e66'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m82[39m,
+  userId: [33m1[39m
+} [33m+30s[39m
+[32m[Khatwa][39m [32m5096[39m I6O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'46eb5b62-a989-4150-b94a-060cecc1592a'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m1[39m,
+  userId: [32m'anonymous'[39m
+} [33m+2s[39m
+[32m[Khatwa][39m [32m5096[39m I5O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'5f71e27a-21df-460a-b531-a3043c728ea4'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m3[39m,
+  userId: [33m1[39m
+} [33m+6s[39m
+[32m[Khatwa][39m [32m5096[39m I5O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'b0a93371-c64a-4a11-bb18-e36cd533dde0'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m8[39m,
+  userId: [33m1[39m
+} [33m+37ms[39m
+[32m[Khatwa][39m [32m5096[39m I5O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'e1352594-6075-4547-86e0-fffbc9833a46'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/students'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m4[39m,
+  userId: [33m1[39m
+} [33m+10ms[39m
+[32m[Khatwa][39m [32m5096[39m I6O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'b67063cd-46db-497d-98ce-2885d8e8a78b'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/students'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m3[39m,
+  userId: [33m1[39m
+} [33m+17ms[39m
+[32m[Khatwa][39m [32m5096[39m I7O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'429c80f4-ca1c-45ab-a013-263a95632e5b'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m2[39m,
+  userId: [33m1[39m
+} [33m+3s[39m
+[32m[Khatwa][39m [32m5096[39m I7O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'5a31fbb9-73e7-4ffe-adc7-b96308e800e9'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m3[39m,
+  userId: [33m1[39m
+} [33m+24ms[39m
+[32m[Khatwa][39m [32m5096[39m I0O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'da06d56d-e3fa-4a2e-a55b-fed863fdcc52'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m27[39m,
+  userId: [33m1[39m
+} [33m+30s[39m
+[32m[Khatwa][39m [32m5096[39m I9O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'159575e6-5167-4b2e-aa21-c8ae324fdc3a'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m4[39m,
+  userId: [33m1[39m
+} [33m+4s[39m
+[32m[Khatwa][39m [32m5096[39m I9O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'c407da8e-a65b-4cd1-8ae4-b410c900847a'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/students'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m4[39m,
+  userId: [33m1[39m
+} [33m+32ms[39m
+[32m[Khatwa][39m [32m5096[39m I10O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'90b47371-1013-4a51-99a8-6ede7580e913'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/students'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m6[39m,
+  userId: [33m1[39m
+} [33m+59ms[39m
+[32m[Khatwa][39m [32m5096[39m I10O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'5020a44a-7602-4d19-91ea-0c34be0a647f'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m63[39m,
+  userId: [33m1[39m
+} [33m+3ms[39m
+[32m[Khatwa][39m [32m5096[39m I3O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'21e830fa-d95c-4813-8db4-b5fdb0f8ce18'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m24[39m,
+  userId: [33m1[39m
+} [33m+30s[39m
+[32m[Khatwa][39m [32m5096[39m I10O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'6e8b5416-3d3d-4aad-8a2a-c68ac0c5a4e2'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m20[39m,
+  userId: [33m1[39m
+} [33m+30s[39m
+[32m[Khatwa][39m [32m5096[39m I10O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'1bf73dc0-422f-46a8-a70a-69a2f4a21c67'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m25[39m,
+  userId: [33m1[39m
+} [33m+30s[39m
+[32m[Khatwa][39m [32m5096[39m I1O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'e7ff4469-8370-479b-8e20-12fd1c576bf0'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m81[39m,
+  userId: [33m1[39m
+} [33m+30s[39m
+[32m[Khatwa][39m [32m5096[39m I1O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'ecae29c8-dd1d-46e5-968e-0c4abd89c71a'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m64[39m,
+  userId: [33m1[39m
+} [33m+30s[39m
+[32m[Khatwa][39m [32m5096[39m I1O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'894ce7be-a046-4438-8941-f485d0ba827c'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m74[39m,
+  userId: [33m1[39m
+} [33m+30s[39m
+[32m[Khatwa][39m [32m5096[39m I0O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'b62a7520-aade-488f-9341-b317c389e151'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m37[39m,
+  userId: [33m1[39m
+} [33m+59s[39m
+[32m[Khatwa][39m [32m5096[39m I1O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'cbe4b382-602e-428e-ac6e-1e8950922e0f'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m87[39m,
+  userId: [33m1[39m
+} [33m+1m[39m
+[32m[Khatwa][39m [32m5096[39m I1O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'6a70a160-b61f-4fc4-9206-57b6f523a78c'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m73[39m,
+  userId: [33m1[39m
+} [33m+60s[39m
+[32m[Khatwa][39m [32m5096[39m I10O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'75a8280a-ca4d-45dd-9597-b8790e5d6204'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m24[39m,
+  userId: [33m1[39m
+} [33m+60s[39m
+[32m[Khatwa][39m [32m5096[39m I0O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'0ac368eb-304a-4044-968a-ea3908d61da0'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m42[39m,
+  userId: [33m1[39m
+} [33m+1m[39m
+[32m[Khatwa][39m [32m5096[39m I10O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'fdb2edb8-fc31-4549-af61-05d3b32f1f5e'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m23[39m,
+  userId: [33m1[39m
+} [33m+60s[39m
+[32m[Khatwa][39m [32m5096[39m I0O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'16e67921-c29a-476c-8fde-5e4717dee784'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m35[39m,
+  userId: [33m1[39m
+} [33m+1m[39m
+[32m[Khatwa][39m [32m5096[39m I10O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'fbbb906a-4907-4232-bfae-88d46d1319a1'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m23[39m,
+  userId: [33m1[39m
+} [33m+60s[39m
+[32m[Khatwa][39m [32m5096[39m I1O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'0d703f96-66e5-4da8-a508-e94d098ead4a'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m37[39m,
+  userId: [33m1[39m
+} [33m+1m[39m
+[32m[Khatwa][39m [32m5096[39m I1O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'a6e82604-eb76-4b64-9927-da07310967d8'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m47[39m,
+  userId: [33m1[39m
+} [33m+60s[39m
+[32m[Khatwa][39m [32m5096[39m I6O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'0abe72ca-20cb-47e7-b27e-e76f9aa33ade'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m30[39m,
+  userId: [33m1[39m
+} [33m+43s[39m
+[32m[Khatwa][39m [32m5096[39m I1O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'641421df-d772-4527-b7cc-af0c1bb55249'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m6[39m,
+  userId: [33m1[39m
+} [33m+3s[39m
+[32m[Khatwa][39m [32m5096[39m I2O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'aafa2cd7-6fc1-472d-8653-57abb9996f37'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m6[39m,
+  userId: [33m1[39m
+} [33m+27ms[39m
+[32m[Khatwa][39m [32m5096[39m I2O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'35901ce0-bba0-4232-9121-4fb326111dd9'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/reports/summary'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m47[39m,
+  userId: [33m1[39m
+} [33m+43ms[39m
+[32m[Khatwa][39m [32m5096[39m I2O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'50dc5689-afec-4301-b493-3066ef5863c5'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/reports/summary'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m10[39m,
+  userId: [33m1[39m
+} [33m+33ms[39m
+[32m[Khatwa][39m [32m5096[39m I10O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'34a0ef1e-3776-47b0-9d89-c717b93e5129'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m60[39m,
+  userId: [33m1[39m
+} [33m+5s[39m
+[32m[Khatwa][39m [32m5096[39m I0O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'b7b00293-6891-4ee6-b287-7bb9fce049a4'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/students'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m62[39m,
+  userId: [33m1[39m
+} [33m+39ms[39m
+[32m[Khatwa][39m [32m5096[39m I0O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'd507bd57-d188-4da3-a97a-4c345cb83356'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/students'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m4[39m,
+  userId: [33m1[39m
+} [33m+23ms[39m
+[32m[Khatwa][39m [32m5096[39m I1O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'adb26d49-501e-45dc-b55f-6e623f4d0f68'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m39[39m,
+  userId: [33m1[39m
+} [33m+94ms[39m
+[32m[Khatwa][39m [32m5096[39m I4O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'1f204514-3a84-465d-913b-e9cd16291316'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m3[39m,
+  userId: [33m1[39m
+} [33m+1s[39m
+[32m[Khatwa][39m [32m5096[39m I4O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'3f5f6678-5301-4154-bc4a-1b858d5e3a26'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m6[39m,
+  userId: [33m1[39m
+} [33m+29ms[39m
+[32m[Khatwa][39m [32m5096[39m I4O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'f5d573f4-879f-4b79-b797-ab841935a183'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m39[39m,
+  userId: [33m1[39m
+} [33m+30s[39m
+[32m[Khatwa][39m [32m5096[39m I1O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'f1cb9443-c2bc-4a25-89fe-324d3f0a60de'[39m,
+  method: [32m'POST'[39m,
+  url: [32m'/api/students'[39m,
+  statusCode: [33m201[39m,
+  durationMs: [33m55[39m,
+  userId: [33m1[39m
+} [33m+30s[39m
+[32m[Khatwa][39m [32m5096[39m I4O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'42a19af2-97f1-4e19-94c3-3445cd596da7'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m3[39m,
+  userId: [33m1[39m
+} [33m+265ms[39m
+[32m[Khatwa][39m [32m5096[39m I5O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'dc7fc043-b51a-469b-8699-6c59a52f348c'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m48[39m,
+  userId: [33m1[39m
+} [33m+2s[39m
+[32m[Khatwa][39m [32m5096[39m I5O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'c4fd82cb-1621-433f-a8b5-f4cb1fa82951'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/iep/plans/student/2'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m28[39m,
+  userId: [33m1[39m
+} [33m+43ms[39m
+[32m[Khatwa][39m [32m5096[39m I5O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'580ff481-1e8e-40a4-8ba1-e663e2057c9b'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m12[39m,
+  userId: [33m1[39m
+} [33m+16ms[39m
+[32m[Khatwa][39m [32m5096[39m I5O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'c368e77e-7daa-4fb4-a8d1-32e5acaa4bb9'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/iep/plans/student/2'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m4[39m,
+  userId: [33m1[39m
+} [33m+24ms[39m
+[32m[Khatwa][39m [32m5096[39m I6O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'06a6561a-83b6-465b-9d0a-8620c02160e7'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/students/2'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m61[39m,
+  userId: [33m1[39m
+} [33m+14ms[39m
+[32m[Khatwa][39m [32m5096[39m I6O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'226f1c9d-9c4b-4697-aa8b-2d2645419575'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/students/2'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m6[39m,
+  userId: [33m1[39m
+} [33m+32ms[39m
+[32m[Khatwa][39m [32m5096[39m I8O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'52e442bc-487b-42bb-882d-9e29bdaeb61c'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m21[39m,
+  userId: [33m1[39m
+} [33m+4s[39m
+[32m[Khatwa][39m [32m5096[39m I8O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'3e427b9a-c9bf-4e27-a0ec-8a5602954d9c'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/reports/summary'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m36[39m,
+  userId: [33m1[39m
+} [33m+17ms[39m
+[32m[Khatwa][39m [32m5096[39m I8O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'f1a391aa-36b8-4079-8cdd-1d2e7942aec2'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m2[39m,
+  userId: [33m1[39m
+} [33m+8ms[39m
+[32m[Khatwa][39m [32m5096[39m I9O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'b9b969c1-be1e-40c0-867c-9034f9538ebd'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/reports/summary'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m12[39m,
+  userId: [33m1[39m
+} [33m+44ms[39m
+[32m[Khatwa][39m [32m5096[39m I7O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'3c7911d9-d4d8-494e-98f1-12e7e84106fb'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m3[39m,
+  userId: [33m1[39m
+} [33m+2s[39m
+[32m[Khatwa][39m [32m5096[39m I8O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'ecfb32a3-3157-4954-9807-b67e533ff360'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/students'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m4[39m,
+  userId: [33m1[39m
+} [33m+16ms[39m
+[32m[Khatwa][39m [32m5096[39m I8O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'e6c40b00-bc3e-4422-b1ed-cbdf3e499ac1'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m12[39m,
+  userId: [33m1[39m
+} [33m+10ms[39m
+[32m[Khatwa][39m [32m5096[39m I8O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'32d36a73-71f5-47bb-9d7d-9b6baca432f5'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/students'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m4[39m,
+  userId: [33m1[39m
+} [33m+23ms[39m
+[32m[Khatwa][39m [32m5096[39m I2O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'910738de-877d-4379-b132-bb581ea70c1a'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/students/2'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m3[39m,
+  userId: [33m1[39m
+} [33m+3s[39m
+[32m[Khatwa][39m [32m5096[39m I2O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'b0d6fb8b-02e3-4ba0-959c-2447bd6b0b57'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/iep/plans/student/2'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m11[39m,
+  userId: [33m1[39m
+} [33m+19ms[39m
+[32m[Khatwa][39m [32m5096[39m I2O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'e7a7d1aa-5fb8-4df6-bb8f-e60c5081cdec'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m3[39m,
+  userId: [33m1[39m
+} [33m+7ms[39m
+[32m[Khatwa][39m [32m5096[39m I2O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'2e76fb10-a293-4acc-934c-434df17a5b3d'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/students/2'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m3[39m,
+  userId: [33m1[39m
+} [33m+8ms[39m
+[32m[Khatwa][39m [32m5096[39m I2O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'3ce22ffb-fdfa-47a3-851b-ec6f05f8910e'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/iep/plans/student/2'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m13[39m,
+  userId: [33m1[39m
+} [33m+29ms[39m
+[32m[Khatwa][39m [32m5096[39m I3O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'e3e52e8f-5135-4ff7-a52c-234890a46b89'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m12[39m,
+  userId: [33m1[39m
+} [33m+27ms[39m
+[32m[Khatwa][39m [32m5096[39m I4O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'e239c52e-08bb-4cfd-8ce2-2031b1633581'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m3[39m,
+  userId: [33m1[39m
+} [33m+6s[39m
+[32m[Khatwa][39m [32m5096[39m I5O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'e4280274-866f-49d8-a07d-48a7266645b8'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m7[39m,
+  userId: [33m1[39m
+} [33m+56ms[39m
+[32m[Khatwa][39m [32m5096[39m I5O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'e17cf0ef-79f5-4ecb-a766-f25d96bbb34b'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/students/2'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m6[39m,
+  userId: [33m1[39m
+} [33m+26ms[39m
+[32m[Khatwa][39m [32m5096[39m I5O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'3b45bd3b-d455-4a8a-8919-39689b8b055c'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/behavior/assessments/student/2'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m6[39m,
+  userId: [33m1[39m
+} [33m+13ms[39m
+[32m[Khatwa][39m [32m5096[39m I6O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'9089de3e-1e5b-4d39-892b-6368daf33150'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/students/2'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m3[39m,
+  userId: [33m1[39m
+} [33m+16ms[39m
+[32m[Khatwa][39m [32m5096[39m I6O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'2b946065-90cc-4368-9233-316bc7768976'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/behavior/assessments/student/2'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m2[39m,
+  userId: [33m1[39m
+} [33m+17ms[39m
+[32m[Khatwa][39m [32m5096[39m I10O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'88008271-8dc0-4b00-954c-1b3be91eb7c2'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m25[39m,
+  userId: [33m1[39m
+} [33m+30s[39m
+[32m[Khatwa][39m [32m5096[39m I0O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'7f4d6e60-d3ff-4b79-855a-b37258cbaf74'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m30[39m,
+  userId: [33m1[39m
+} [33m+30s[39m
+[32m[Khatwa][39m [32m5096[39m I1O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'e80abfe4-e6ec-46b9-998a-b9ac5a4a1d58'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/students/2'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m9[39m,
+  userId: [33m1[39m
+} [33m+1s[39m
+[32m[Khatwa][39m [32m5096[39m I1O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'b4abb4c4-7ed2-41fb-9ac3-df40ed0b0eb0'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/behavior/assessments/student/2'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m13[39m,
+  userId: [33m1[39m
+} [33m+18ms[39m
+[32m[Khatwa][39m [32m5096[39m I9O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'a8b7b696-4533-4f12-bafc-ea54a59a0e97'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m11[39m,
+  userId: [33m1[39m
+} [33m+4s[39m
+[32m[Khatwa][39m [32m5096[39m I0O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'72e043aa-d7b5-401f-93b1-40eefef0ce70'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m4[39m,
+  userId: [33m1[39m
+} [33m+176ms[39m
+[32m[Khatwa][39m [32m5096[39m I0O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'98a89d98-297e-43fe-9655-4842ba5dc5dc'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/students/2'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m3[39m,
+  userId: [33m1[39m
+} [33m+13ms[39m
+[32m[Khatwa][39m [32m5096[39m I1O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'62bca5a2-d99e-4c33-be82-8b49e8b44495'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/behavior/assessments/student/2'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m3[39m,
+  userId: [33m1[39m
+} [33m+38ms[39m
+[32m[Khatwa][39m [32m5096[39m I4O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'59cb403d-e11c-4fcc-bced-29090e907462'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m42[39m,
+  userId: [33m1[39m
+} [33m+13s[39m
+[32m[Khatwa][39m [32m5096[39m I4O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'547f5592-1065-45bd-8393-1863fedcaec2'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m2[39m,
+  userId: [33m1[39m
+} [33m+20ms[39m
+[32m[Khatwa][39m [32m5096[39m I4O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'03700b2e-3037-4354-a20c-76fb53f4962c'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/reports/summary'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m45[39m,
+  userId: [33m1[39m
+} [33m+9ms[39m
+[32m[Khatwa][39m [32m5096[39m I5O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'1bc65e06-3f71-4012-bc61-3d8420916c39'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/reports/summary'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m24[39m,
+  userId: [33m1[39m
+} [33m+41ms[39m
+[32m[Khatwa][39m [32m5096[39m I6O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'a5d52317-588a-45b2-ba74-c5fc34fc5a5b'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m3[39m,
+  userId: [33m1[39m
+} [33m+3s[39m
+[32m[Khatwa][39m [32m5096[39m I6O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'89e4ec4b-f28b-4809-a871-14bdc70c42d0'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m4[39m,
+  userId: [33m1[39m
+} [33m+30ms[39m
+[32m[Khatwa][39m [32m5096[39m I6O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'dcace84b-bdd2-4144-963a-d72c10a091e1'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/media'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m3[39m,
+  userId: [33m1[39m
+} [33m+12ms[39m
+[32m[Khatwa][39m [32m5096[39m I7O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'109618f1-4f9d-4386-846b-acc89ab269dc'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/media'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m3[39m,
+  userId: [33m1[39m
+} [33m+16ms[39m
+[32m[Khatwa][39m [32m5096[39m I5O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'253ae2e5-2220-4387-9cef-61f4d227f301'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m2[39m,
+  userId: [33m1[39m
+} [33m+3s[39m
+[32m[Khatwa][39m [32m5096[39m I5O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'3ad42b19-8908-40bf-b21d-165911d7c88b'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m5[39m,
+  userId: [33m1[39m
+} [33m+36ms[39m
+[32m[Khatwa][39m [32m5096[39m I5O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'0600a6ef-03ba-451a-9954-7ac12fd854b8'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/students'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m6[39m,
+  userId: [33m1[39m
+} [33m+5ms[39m
+[32m[Khatwa][39m [32m5096[39m I5O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'b4c631b5-f20b-4f76-a6bc-5562722af5b5'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/reports/summary'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m13[39m,
+  userId: [33m1[39m
+} [33m+11ms[39m
+[32m[Khatwa][39m [32m5096[39m I5O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'455879ac-8acb-473a-a952-dd4d9249bf54'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/students'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m3[39m,
+  userId: [33m1[39m
+} [33m+11ms[39m
+[32m[Khatwa][39m [32m5096[39m I6O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'd3bf1411-420e-4c8c-8043-d4ee81a52051'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/reports/summary'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m17[39m,
+  userId: [33m1[39m
+} [33m+28ms[39m
+[32m[Khatwa][39m [32m5096[39m I2O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'23d13c14-20c3-4384-abe9-ab2847bb726d'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m30[39m,
+  userId: [33m1[39m
+} [33m+40s[39m
+[32m[Khatwa][39m [32m5096[39m I2O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'6e6c6b3e-1680-4b5f-8b4a-653f8bc78167'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/reports/summary'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m39[39m,
+  userId: [33m1[39m
+} [33m+14ms[39m
+[32m[Khatwa][39m [32m5096[39m I2O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'90f0bb38-8a30-4ee8-862f-9d8b6489d931'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m3[39m,
+  userId: [33m1[39m
+} [33m+10ms[39m
+[32m[Khatwa][39m [32m5096[39m I2O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'25f0d83c-e9e2-4669-96e5-866a0d822dde'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/reports/summary'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m10[39m,
+  userId: [33m1[39m
+} [33m+15ms[39m
+[32m[Khatwa][39m [32m5096[39m I8O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'5639fd27-181f-4953-a623-6ffe1ebca51c'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m2[39m,
+  userId: [33m1[39m
+} [33m+6s[39m
+[32m[Khatwa][39m [32m5096[39m I8O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'83f6c82f-ec9e-42f2-ba6f-b68bb8bd7cc5'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m4[39m,
+  userId: [33m1[39m
+} [33m+20ms[39m
+[32m[Khatwa][39m [32m5096[39m I8O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'3f0d32bf-3cea-48fb-abdd-89b284ff2d98'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m20[39m,
+  userId: [33m1[39m
+} [33m+30s[39m
+[32m[Khatwa][39m [32m5096[39m I8O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'1b312962-d136-4d4d-8c80-6e5603e2d07f'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m7[39m,
+  userId: [33m1[39m
+} [33m+7s[39m
+[32m[Khatwa][39m [32m5096[39m I9O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'b779b6b4-f47c-4a4c-b413-7f7d1005d31e'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m4[39m,
+  userId: [33m1[39m
+} [33m+31ms[39m
+[32m[Khatwa][39m [32m5096[39m I9O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'9a1d1927-36b4-495c-ab9e-db2ee84a623c'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m46[39m,
+  userId: [33m1[39m
+} [33m+13ms[39m
+[32m[Khatwa][39m [32m5096[39m I9O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'bb2eda97-8911-48a7-b811-09bf5d8b89ce'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m2[39m,
+  userId: [33m1[39m
+} [33m+21ms[39m
+[32m[Khatwa][39m [32m5096[39m I9O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'234bd77a-e0f0-49de-95d0-d794411141e2'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m6[39m,
+  userId: [33m1[39m
+} [33m+2s[39m
+[32m[Khatwa][39m [32m5096[39m I9O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'd09e77e2-e3a7-4271-81d1-54881818f1a3'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/media'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m4[39m,
+  userId: [33m1[39m
+} [33m+33ms[39m
+[32m[Khatwa][39m [32m5096[39m I9O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'7962f21c-46ad-44ba-886c-56335c24fbbc'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m3[39m,
+  userId: [33m1[39m
+} [33m+9ms[39m
+[32m[Khatwa][39m [32m5096[39m I10O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'8aa6d22f-980c-4eae-862a-b51ac82dd591'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/media'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m4[39m,
+  userId: [33m1[39m
+} [33m+15ms[39m
+[32m[Khatwa][39m [32m5096[39m I5O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'862f2c10-4ae7-4457-b74c-c7fbcee540ce'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m13[39m,
+  userId: [33m1[39m
+} [33m+7s[39m
+[32m[Khatwa][39m [32m5096[39m I5O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'f0a59f90-9059-4ec5-b925-d9b28a0605c4'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/reports/summary'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m14[39m,
+  userId: [33m1[39m
+} [33m+20ms[39m
+[32m[Khatwa][39m [32m5096[39m I5O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'433679b4-fd32-4a3c-a808-f81088dd9be6'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/notifications/unread-count'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m2[39m,
+  userId: [33m1[39m
+} [33m+10ms[39m
+[32m[Khatwa][39m [32m5096[39m I6O [32m    LOG[39m  [32mrequest completed[39m - {
+  correlationId: [32m'a0f385ab-959a-4022-a46f-86e59a567604'[39m,
+  method: [32m'GET'[39m,
+  url: [32m'/api/reports/summary'[39m,
+  statusCode: [33m200[39m,
+  durationMs: [33m15[39m,
+  userId: [33m1[39m
+} [33m+32ms[39m
