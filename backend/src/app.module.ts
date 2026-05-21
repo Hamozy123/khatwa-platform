@@ -40,7 +40,7 @@ import { AppController } from './app.controller';
     TypeOrmModule.forRootAsync({
       imports: [ConfigModule],
       inject: [ConfigService],
-      useFactory: (config: ConfigService) => ({
+       useFactory: (config: ConfigService) => ({
         type: 'postgres',
         host: config.get('DATABASE_HOST', 'localhost'),
         port: Number(config.get('DATABASE_PORT', 5432)),
@@ -48,7 +48,8 @@ import { AppController } from './app.controller';
         password: config.get('DATABASE_PASSWORD', 'khatwa_pass'),
         database: config.get('DATABASE_NAME', 'khatwa_db'),
         entities: [__dirname + '/**/*.entity{.ts,.js}'],
-        synchronize: config.get('NODE_ENV') !== 'production',
+        synchronize: true,
+        ssl: config.get('PGSSLMODE') === 'require' ? { rejectUnauthorized: false } : false,
       }),
     }),
     LoggerModule,
