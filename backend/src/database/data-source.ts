@@ -27,6 +27,7 @@ export const dataSourceOptions: DataSourceOptions = {
   migrations: [__dirname + '/migrations/*{.ts,.js}'],
   synchronize: false,
   ssl: dbParsed || process.env.PGSSLMODE === 'require' ? { rejectUnauthorized: false } : false,
+  extra: dbParsed ? { ssl: { rejectUnauthorized: false } } : undefined,
 };
 
 const AppDataSource = new DataSource(dataSourceOptions);

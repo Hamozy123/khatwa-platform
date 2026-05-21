@@ -54,6 +54,7 @@ import { AppController } from './app.controller';
             entities: [__dirname + '/**/*.entity{.ts,.js}'],
             synchronize: true,
             ssl: { rejectUnauthorized: false },
+            extra: { ssl: { rejectUnauthorized: false } },
           };
         }
         return {
