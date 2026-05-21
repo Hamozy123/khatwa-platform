@@ -43,9 +43,14 @@ import { AppController } from './app.controller';
         useFactory: (config: ConfigService) => {
         const dbUrl = config.get('DATABASE_URL');
         if (dbUrl) {
+          const parsed = new URL(dbUrl);
           return {
             type: 'postgres',
-            url: dbUrl,
+            host: parsed.hostname,
+            port: Number(parsed.port),
+            username: decodeURIComponent(parsed.username),
+            password: decodeURIComponent(parsed.password),
+            database: parsed.pathname.slice(1),
             entities: [__dirname + '/**/*.entity{.ts,.js}'],
             synchronize: true,
             ssl: { rejectUnauthorized: false },
