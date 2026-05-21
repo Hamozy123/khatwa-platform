@@ -41,17 +41,14 @@ import { AppController } from './app.controller';
       imports: [ConfigModule],
       inject: [ConfigService],
         useFactory: (config: ConfigService) => {
-        let dbUrl = config.get('DATABASE_URL');
+        const dbUrl = config.get('DATABASE_URL');
         if (dbUrl) {
-          if (!dbUrl.includes('sslmode')) {
-            dbUrl += (dbUrl.includes('?') ? '&' : '?') + 'sslmode=require';
-          }
           return {
             type: 'postgres',
             url: dbUrl,
             entities: [__dirname + '/**/*.entity{.ts,.js}'],
             synchronize: true,
-            ssl: true,
+            ssl: { rejectUnauthorized: false },
           };
         }
         return {
