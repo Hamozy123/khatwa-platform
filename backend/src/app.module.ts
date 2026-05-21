@@ -40,17 +40,29 @@ import { AppController } from './app.controller';
     TypeOrmModule.forRootAsync({
       imports: [ConfigModule],
       inject: [ConfigService],
-       useFactory: (config: ConfigService) => ({
-        type: 'postgres',
-        host: config.get('DATABASE_HOST', 'localhost'),
-        port: Number(config.get('DATABASE_PORT', 5432)),
-        username: config.get('DATABASE_USERNAME', 'khatwa'),
-        password: config.get('DATABASE_PASSWORD', 'khatwa_pass'),
-        database: config.get('DATABASE_NAME', 'khatwa_db'),
-        entities: [__dirname + '/**/*.entity{.ts,.js}'],
-        synchronize: true,
-        ssl: config.get('PGSSLMODE') === 'require' ? { rejectUnauthorized: false } : false,
-      }),
+        useFactory: (config: ConfigService) => {
+        const dbUrl = config.get('DATABASE_URL');
+        if (dbUrl) {
+          return {
+            type: 'postgres',
+            url: dbUrl,
+            entities: [__dirname + '/**/*.entity{.ts,.js}'],
+            synchronize: true,
+            ssl: { rejectUnauthorized: false },
+          };
+        }
+        return {
+          type: 'postgres',
+          host: config.get('DATABASE_HOST', 'localhost'),
+          port: Number(config.get('DATABASE_PORT', 5432)),
+          username: config.get('DATABASE_USERNAME', 'khatwa'),
+          password: config.get('DATABASE_PASSWORD', 'khatwa_pass'),
+          database: config.get('DATABASE_NAME', 'khatwa_db'),
+          entities: [__dirname + '/**/*.entity{.ts,.js}'],
+          synchronize: true,
+          ssl: config.get('PGSSLMODE') === 'require' ? { rejectUnauthorized: false } : false,
+        };
+      },
     }),
     LoggerModule,
     AuditModule,
